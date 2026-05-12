@@ -1,0 +1,236 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1778344504119,
+  "projectRoot": "/home/jon/userspace/src/website-wp-bedrock-template",
+  "techStack": {
+    "languages": [
+      {
+        "name": "PHP",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "composer.json"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "composer",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "config": {
+      "path": "config",
+      "purpose": "Configuration files",
+      "fileCount": 1,
+      "lastAccessed": 1778344504102,
+      "keyFiles": [
+        "application.php"
+      ]
+    },
+    "web": {
+      "path": "web",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1778344504103,
+      "keyFiles": [
+        "index.php",
+        "wp-config.php"
+      ]
+    },
+    "web/app": {
+      "path": "web/app",
+      "purpose": "Application code",
+      "fileCount": 0,
+      "lastAccessed": 1778344504107,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "AGENTS.md",
+      "accessCount": 12,
+      "lastAccessed": 1778346678244,
+      "type": "file"
+    },
+    {
+      "path": ".devcontainer/AGENTS.md",
+      "accessCount": 7,
+      "lastAccessed": 1778346685355,
+      "type": "file"
+    },
+    {
+      "path": "config/AGENTS.md",
+      "accessCount": 6,
+      "lastAccessed": 1778346689147,
+      "type": "file"
+    },
+    {
+      "path": "web/AGENTS.md",
+      "accessCount": 6,
+      "lastAccessed": 1778346689933,
+      "type": "file"
+    },
+    {
+      "path": "web/app/AGENTS.md",
+      "accessCount": 6,
+      "lastAccessed": 1778346690319,
+      "type": "file"
+    },
+    {
+      "path": ".devcontainer/mysql/AGENTS.md",
+      "accessCount": 5,
+      "lastAccessed": 1778346685742,
+      "type": "file"
+    },
+    {
+      "path": ".devcontainer/nginx/AGENTS.md",
+      "accessCount": 5,
+      "lastAccessed": 1778346686172,
+      "type": "file"
+    },
+    {
+      "path": ".devcontainer/php/AGENTS.md",
+      "accessCount": 5,
+      "lastAccessed": 1778346686571,
+      "type": "file"
+    },
+    {
+      "path": ".devcontainer/scripts/AGENTS.md",
+      "accessCount": 5,
+      "lastAccessed": 1778346686849,
+      "type": "file"
+    },
+    {
+      "path": ".vscode/AGENTS.md",
+      "accessCount": 5,
+      "lastAccessed": 1778346688788,
+      "type": "file"
+    },
+    {
+      "path": "config/environments/AGENTS.md",
+      "accessCount": 5,
+      "lastAccessed": 1778346689552,
+      "type": "file"
+    },
+    {
+      "path": "web/app/mu-plugins/AGENTS.md",
+      "accessCount": 5,
+      "lastAccessed": 1778346690651,
+      "type": "file"
+    },
+    {
+      "path": "CONTEXT.md",
+      "accessCount": 3,
+      "lastAccessed": 1778346677429,
+      "type": "file"
+    },
+    {
+      "path": "GLOSSARY.md",
+      "accessCount": 3,
+      "lastAccessed": 1778346677764,
+      "type": "file"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "accessCount": 3,
+      "lastAccessed": 1778346678142,
+      "type": "file"
+    },
+    {
+      "path": "composer.json",
+      "accessCount": 2,
+      "lastAccessed": 1778345102591,
+      "type": "file"
+    },
+    {
+      "path": "config/application.php",
+      "accessCount": 2,
+      "lastAccessed": 1778345103364,
+      "type": "file"
+    },
+    {
+      "path": ".devcontainer/docker-compose.yml",
+      "accessCount": 2,
+      "lastAccessed": 1778345103739,
+      "type": "file"
+    },
+    {
+      "path": ".devcontainer/devcontainer.json",
+      "accessCount": 2,
+      "lastAccessed": 1778345104067,
+      "type": "file"
+    },
+    {
+      "path": ".vscode/settings.json",
+      "accessCount": 2,
+      "lastAccessed": 1778345354913,
+      "type": "file"
+    },
+    {
+      "path": "wp-cli.yml",
+      "accessCount": 1,
+      "lastAccessed": 1778344883985,
+      "type": "file"
+    },
+    {
+      "path": ".devcontainer/Dockerfile",
+      "accessCount": 1,
+      "lastAccessed": 1778344924470,
+      "type": "file"
+    },
+    {
+      "path": "web/index.php",
+      "accessCount": 1,
+      "lastAccessed": 1778345102615,
+      "type": "file"
+    },
+    {
+      "path": "web/wp-config.php",
+      "accessCount": 1,
+      "lastAccessed": 1778345102982,
+      "type": "file"
+    },
+    {
+      "path": ".devcontainer/nginx/ssl/AGENTS.md",
+      "accessCount": 1,
+      "lastAccessed": 1778346743758,
+      "type": "file"
+    },
+    {
+      "path": "web/app/plugins/AGENTS.md",
+      "accessCount": 1,
+      "lastAccessed": 1778346759390,
+      "type": "file"
+    },
+    {
+      "path": "web/app/themes/AGENTS.md",
+      "accessCount": 1,
+      "lastAccessed": 1778346767350,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

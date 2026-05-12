@@ -23,5 +23,17 @@
   // 🛡️ Critical Safety - Prevent destructive operations
   "git.allowForcePush": false,                // Block force push completely
   "git.confirmForcePush": true,               // Double confirm if attempted
-  "git.confirmEmptyCommits": true             // Prevent accidental empty commits
+  "git.confirmEmptyCommits": true,            // Prevent accidental empty commits
+
+  // AI documentation files — hidden from explorer (symlinks to AGENTS.md)
+  "files.exclude": {
+    "**/CLAUDE.md": true,
+    "**/GEMINI.md": true,
+    "**/QWEN.md": true,
+    "**/AGENTS.md": true,
+    "**/GLOSSARY.md": true,
+    "**/CONTEXT.md": true,
+    "**/ARCHITECTURE.md": true,
+    "**/CONTEXT-MAP.md": true
+  }
 }
